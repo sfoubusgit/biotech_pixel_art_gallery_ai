@@ -1,11 +1,18 @@
 {
   "collection": "PLASMAE // SPECIMEN ARCHIVE",
+  "categories": [
+    "pixel_biotech_romantic",
+    "pixel_biotech_nutty",
+    "pixel_biotech_eldritch",
+    "pixel_biotech_regal",
+    "pixel_biotech_frost"
+  ],
   "specimens": [
     {
       "id": "SPEC-0004",
       "name": "Chromula viridis",
       "common": "Pixel Organism",
-      "style": "img2img",
+      "style": "pixel_biotech_romantic",
       "src": "images/plasmae_2ph8nu19c9.png",
       "date": "2026-06-13",
       "prompt": "soft rose and blush bioluminescence, heart-shaped cell clusters, tender pink glow, delicate flowing tendrils, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
@@ -14,7 +21,7 @@
       "id": "SPEC-0003",
       "name": "Spectris mirabilis",
       "common": "Cultured Familiar",
-      "style": "img2img",
+      "style": "pixel_biotech_romantic",
       "src": "images/plasmae_1k3hp66caw.png",
       "date": "2026-06-13",
       "prompt": "soft rose and blush bioluminescence, heart-shaped cell clusters, tender pink glow, delicate flowing tendrils, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
@@ -23,7 +30,7 @@
       "id": "SPEC-0002",
       "name": "Chromula ferox",
       "common": "Cultured Familiar",
-      "style": "img2img",
+      "style": "pixel_biotech_frost",
       "src": "images/plasmae_2wc5cw6iw7.png",
       "date": "2026-06-13",
       "prompt": "crystalline cryo-organism, icy teal frozen veins, glittering frost crystals, frozen specimen, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
@@ -32,7 +39,7 @@
       "id": "SPEC-0001",
       "name": "Gleamia gravida",
       "common": "Contained Mutant",
-      "style": "img2img",
+      "style": "pixel_biotech_nutty",
       "src": "images/plasmae_azcia33gr0.png",
       "date": "2026-06-13",
       "prompt": "chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"

@@ -14,7 +14,15 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   let specimens = [];
+  let categories = [];
   let active = "all";
+
+  // friendly chip label: pixel_biotech_romantic -> "bt romantic", pixel_biotech -> "bt"
+  const catLabel = (k) =>
+    k === "all" ? "all" :
+    k === "pixel_biotech" ? "bt" :
+    k.indexOf("pixel_biotech_") === 0 ? "bt " + k.slice("pixel_biotech_".length) :
+    k;
 
   /* ---- deterministic "biology" derived from a specimen id ---- */
   const BASES = ["A", "T", "G", "C"];
@@ -48,17 +56,24 @@
 
   try {
     const res = await fetch("manifest.json", { cache: "no-store" });
-    specimens = (await res.json()).specimens || [];
+    const data = await res.json();
+    specimens = data.specimens || [];
+    categories = data.categories || [];
   } catch (e) {
     grid.innerHTML = '<p style="color:#ff5d8f">[ERR] manifest.json could not be loaded. ' +
       'Serve over http (python -m http.server), not file://</p>';
     return;
   }
 
-  const styles = ["all", ...Array.from(new Set(specimens.map(s => s.style)))];
+  // predefined categories first, then any extra styles that show up in specimens
+  const ordered = [];
+  categories.concat(specimens.map(s => s.style)).forEach(k => {
+    if (k && ordered.indexOf(k) === -1) ordered.push(k);
+  });
+  const styles = ["all", ...ordered];
   bar.innerHTML =
     '<span class="label">CULTURE //</span>' +
-    styles.map(s => `<button class="chip${s === "all" ? " active" : ""}" data-style="${s}">${s}</button>`).join("") +
+    styles.map(s => `<button class="chip${s === "all" ? " active" : ""}" data-style="${s}">${catLabel(s)}</button>`).join("") +
     '<span class="count" id="count"></span>';
 
   bar.addEventListener("click", e => {
@@ -91,7 +106,7 @@
           <div class="common">${s.common}</div>
           ${seqHTML(genome(s.id, 22))}
           <div class="vital"><span class="vlabel">VIABILITY</span>${viabilityHTML(pct)}</div>
-          <div class="row"><span class="style">&#9670; ${s.style}</span><span class="date">${s.date}</span></div>
+          <div class="row"><span class="style">&#9670; ${catLabel(s.style)}</span><span class="date">${s.date}</span></div>
         </div>
       </article>`;
     }).join("");
@@ -109,7 +124,7 @@
     lbSub.textContent = s.common;
     lbGen.innerHTML = `<div class="glabel">GENOME&nbsp;//&nbsp;5'&rarr;3'</div>${seqHTML(genome(s.id, 40))}`;
     lbDl.innerHTML =
-      `<dt>CULTURE</dt><dd>${s.style}</dd>` +
+      `<dt>CULTURE</dt><dd>${catLabel(s.style)}</dd>` +
       `<dt>VIABILITY</dt><dd style="color:#36e0a6">${pct}%</dd>` +
       `<dt>pH</dt><dd>${phOf(s.id)}</dd>` +
       `<dt>CONTAINMENT</dt><dd>BSL-2</dd>` +
