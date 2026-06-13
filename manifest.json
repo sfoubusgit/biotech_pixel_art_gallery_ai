@@ -2,6 +2,15 @@
   "collection": "PLASMAE // SPECIMEN ARCHIVE",
   "specimens": [
     {
+      "id": "SPEC-0004",
+      "name": "Chromula viridis",
+      "common": "Pixel Organism",
+      "style": "img2img",
+      "src": "images/plasmae_2ph8nu19c9.png",
+      "date": "2026-06-13",
+      "prompt": "soft rose and blush bioluminescence, heart-shaped cell clusters, tender pink glow, delicate flowing tendrils, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
       "id": "SPEC-0003",
       "name": "Spectris mirabilis",
       "common": "Cultured Familiar",
