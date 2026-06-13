@@ -2,6 +2,15 @@
   "collection": "PLASMAE // SPECIMEN ARCHIVE",
   "specimens": [
     {
+      "id": "SPEC-0002",
+      "name": "Chromula ferox",
+      "common": "Cultured Familiar",
+      "style": "img2img",
+      "src": "images/plasmae_2wc5cw6iw7.png",
+      "date": "2026-06-13",
+      "prompt": "crystalline cryo-organism, icy teal frozen veins, glittering frost crystals, frozen specimen, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
       "id": "SPEC-0001",
       "name": "Gleamia gravida",
       "common": "Contained Mutant",
