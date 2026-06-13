@@ -176,6 +176,13 @@ h1 .blink {
   gap: 26px;
   padding: 34px 34px 90px;
 }
+.grid .empty {
+  grid-column: 1 / -1;
+  text-align: center; color: var(--ink-dim);
+  font-family: var(--pico); font-size: 10px; line-height: 2.4;
+  padding: 80px 20px;
+  box-shadow: inset 0 0 0 4px var(--line);
+}
 
 .card {
   background: var(--panel);

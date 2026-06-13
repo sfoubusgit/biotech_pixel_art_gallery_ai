@@ -72,6 +72,10 @@
   function render() {
     const list = specimens.filter(s => active === "all" || s.style === active);
     document.getElementById("count").textContent = `${String(list.length).padStart(3, "0")} VIABLE`;
+    if (!list.length) {
+      grid.innerHTML = '<p class="empty">[ ARCHIVE EMPTY ]<br>No specimens catalogued yet.<br>Culture one in the Plasmae bot and tap &#128247; Add to Gallery.</p>';
+      return;
+    }
     grid.innerHTML = list.map(s => {
       const pct = viability(s.id);
       return `
