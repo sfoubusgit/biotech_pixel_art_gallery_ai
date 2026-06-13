@@ -9,6 +9,9 @@
   const lbKick = document.getElementById("lb-kicker");
   const lbGen  = document.getElementById("lb-genome");
   const lbDl   = document.getElementById("lb-dl");
+  const lbPr   = document.getElementById("lb-prompt");
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   let specimens = [];
   let active = "all";
@@ -108,6 +111,9 @@
       `<dt>CONTAINMENT</dt><dd>BSL-2</dd>` +
       `<dt>CATALOGUED</dt><dd>${s.date}</dd>` +
       `<dt>STATUS</dt><dd style="color:#36e0a6">&#9670; VIABLE</dd>`;
+    lbPr.innerHTML = s.prompt
+      ? `<div class="glabel">PROMPT</div><div class="ptext">${esc(s.prompt)}</div>`
+      : "";
     lb.classList.add("open");
   });
 

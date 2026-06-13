@@ -1,13 +1,13 @@
 {
   "collection": "PLASMAE // SPECIMEN ARCHIVE",
   "specimens": [
-    { "id": "SPEC-0001", "name": "Felis machinata", "common": "Clockwork Gentleman", "style": "pixel", "src": "images/pixelxl_final.png", "date": "2026-06-12" },
-    { "id": "SPEC-0002", "name": "Felis ornata", "common": "Tome Familiar", "style": "tome", "src": "images/lora04_preview.png", "date": "2026-06-12" },
-    { "id": "SPEC-0003", "name": "Felis nox", "common": "Neo Familiar", "style": "rimix", "src": "images/rimix_preview.png", "date": "2026-06-12" },
-    { "id": "SPEC-0004", "name": "Mulier rubra", "common": "Crimson Subject", "style": "pixel", "src": "images/reddress_out.png", "date": "2026-06-13" },
-    { "id": "SPEC-0005", "name": "Vulpes abyssi", "common": "Lantern Spirit", "style": "tome", "src": "images/pixelpipe_out.png", "date": "2026-06-12" },
-    { "id": "SPEC-0006", "name": "Draco igneus", "common": "Ember Wyrm", "style": "card", "src": "images/cardtest_out.png", "date": "2026-06-12" },
-    { "id": "SPEC-0007", "name": "Automaton bubo", "common": "Gear Owl", "style": "biotech", "src": "images/img2img_test.png", "date": "2026-06-13" },
-    { "id": "SPEC-0008", "name": "Felis arcana", "common": "Archive Specimen", "style": "tome", "src": "images/pixeltome_demo.png", "date": "2026-06-12" }
+    { "id": "SPEC-0001", "name": "Felis machinata", "common": "Clockwork Gentleman", "style": "pixel", "src": "images/pixelxl_final.png", "date": "2026-06-12", "prompt": "An extraordinarily intricate clockwork gentleman cat in a waistcoat, exposed brass gears, pixel art, pixelart, vibrant, masterpiece" },
+    { "id": "SPEC-0002", "name": "Felis ornata", "common": "Tome Familiar", "style": "tome", "src": "images/lora04_preview.png", "date": "2026-06-12", "prompt": "ornate art nouveau familiar cat, decorative flowing linework, watercolor washes, pixel art, pixelart, masterpiece" },
+    { "id": "SPEC-0003", "name": "Felis nox", "common": "Neo Familiar", "style": "rimix", "src": "images/rimix_preview.png", "date": "2026-06-12", "prompt": "a sleek black familiar cat with glowing eyes, neon rim light, pixel art, pixelart, masterpiece" },
+    { "id": "SPEC-0004", "name": "Mulier rubra", "common": "Crimson Subject", "style": "pixel", "src": "images/reddress_out.png", "date": "2026-06-13", "prompt": "a woman in a flowing crimson dress, dramatic lighting, pixel art, pixelart, highly detailed, masterpiece" },
+    { "id": "SPEC-0005", "name": "Vulpes abyssi", "common": "Lantern Spirit", "style": "tome", "src": "images/pixelpipe_out.png", "date": "2026-06-12", "prompt": "a spectral fox carrying a glowing lantern, ornate art nouveau, watercolor washes, pixel art, masterpiece" },
+    { "id": "SPEC-0006", "name": "Draco igneus", "common": "Ember Wyrm", "style": "card", "src": "images/cardtest_out.png", "date": "2026-06-12", "prompt": "an ember wyrm dragon as a pixel-art trading card, ornate decorative frame, pixel art, pixelart, masterpiece" },
+    { "id": "SPEC-0007", "name": "Automaton bubo", "common": "Gear Owl", "style": "biotech", "src": "images/img2img_test.png", "date": "2026-06-13", "prompt": "biotech mechanical owl, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece" },
+    { "id": "SPEC-0008", "name": "Felis arcana", "common": "Archive Specimen", "style": "tome", "src": "images/pixeltome_demo.png", "date": "2026-06-12", "prompt": "an arcane archive cat familiar, ornate art nouveau, decorative linework, pixel art, pixelart, masterpiece" }
   ]
 }
