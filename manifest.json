@@ -1,4 +1,14 @@
 {
   "collection": "PLASMAE // SPECIMEN ARCHIVE",
-  "specimens": []
+  "specimens": [
+    {
+      "id": "SPEC-0001",
+      "name": "Gleamia gravida",
+      "common": "Contained Mutant",
+      "style": "img2img",
+      "src": "images/plasmae_azcia33gr0.png",
+      "date": "2026-06-13",
+      "prompt": "chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, biotech mechanical, exposed gears, glowing veins, intricate, pixel art, pixelart, vibrant, masterpiece"
+    }
+  ]
 }
