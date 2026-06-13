@@ -21,6 +21,9 @@
 
   --pico: "Press Start 2P", monospace;   /* headings / UI chrome */
   --term: "VT323", monospace;            /* body / metadata (readable) */
+
+  /* base-pair palette (genomics) */
+  --bp-a: #36e0a6; --bp-t: #ff5d8f; --bp-g: #4b9bff; --bp-c: #ffc24b;
 }
 
 * { box-sizing: border-box; }
@@ -69,7 +72,44 @@ header {
   font-family: var(--pico);
   font-size: 9px; letter-spacing: 2px;
   color: var(--ink-dim);
+  display: flex; align-items: center; gap: 12px;
 }
+.brand .dna {
+  width: 20px; height: 32px; image-rendering: pixelated;
+  animation: helix 2.4s steps(6) infinite;
+}
+@keyframes helix { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(-1); } }
+.brand .bsl {
+  color: var(--bg-2); background: var(--amber);
+  padding: 4px 6px; letter-spacing: 1px;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+
+/* incubator readout */
+.readout {
+  margin-top: 18px; display: flex; flex-wrap: wrap; gap: 18px;
+  font-family: var(--pico); font-size: 8px; letter-spacing: 1px; color: var(--ink-dim);
+}
+.readout b { color: var(--ink); }
+.readout b.ok { color: var(--teal); animation: blink 1.4s steps(1) infinite; }
+
+/* scrolling base-pair ruler */
+.bpruler {
+  height: 8px;
+  background: repeating-linear-gradient(90deg,
+    var(--bp-a) 0 6px, var(--bp-t) 6px 12px, var(--bp-g) 12px 18px, var(--bp-c) 18px 24px);
+  background-size: 24px 8px;
+  image-rendering: pixelated;
+  animation: bpslide 3s linear infinite;
+  opacity: .85;
+}
+@keyframes bpslide { to { background-position: -24px 0; } }
+
+/* live vitals / EKG */
+.vitals { height: 26px; overflow: hidden; border-bottom: 4px solid var(--line); background: var(--bg-2); }
+.vitals-track { display: flex; width: 200%; height: 100%; animation: ekg 4s linear infinite; }
+.vitals-track svg { width: 50%; height: 100%; display: block; }
+@keyframes ekg { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 h1 {
   font-family: var(--pico);
   margin: 16px 0 14px;
@@ -175,6 +215,31 @@ h1 .blink {
   padding: 5px 7px;
   box-shadow: 3px 3px 0 var(--shadow);
 }
+.card .mag {
+  position: absolute; bottom: 9px; right: 9px;
+  font-family: var(--pico); font-size: 7px; color: var(--ink-dim);
+  background: var(--bg-2); padding: 4px 6px;
+}
+.card .led {
+  position: absolute; top: 11px; right: 11px;
+  width: 9px; height: 9px; background: var(--teal);
+  box-shadow: 0 0 0 2px var(--bg-2), 3px 3px 0 var(--shadow);
+  animation: blink 1.6s steps(1) infinite;
+}
+
+/* genome sequence (A/T/G/C colored bases) */
+.seq { display: block; margin-top: 8px; font-family: var(--pico); font-size: 7px; line-height: 1.9; word-break: break-all; letter-spacing: 1px; }
+.seq i { font-style: normal; }
+.b-a { color: var(--bp-a); } .b-t { color: var(--bp-t); }
+.b-g { color: var(--bp-g); } .b-c { color: var(--bp-c); }
+
+/* viability bar */
+.vital { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+.vital .vlabel { font-family: var(--pico); font-size: 7px; color: var(--ink-dim); letter-spacing: 1px; }
+.bar { display: inline-flex; gap: 2px; }
+.bar i { width: 7px; height: 12px; background: var(--panel-2); box-shadow: inset 0 0 0 1px var(--line); }
+.bar i.on { background: var(--teal); box-shadow: none; }
+.pct { font-size: 18px; color: var(--teal); }
 
 .card .meta { padding: 12px 14px 14px; }
 .card .sci { font-style: italic; color: var(--ink); font-size: 22px; line-height: 1.1; }
@@ -219,7 +284,12 @@ h1 .blink {
   font-family: var(--pico); font-size: 8px; letter-spacing: 1px; color: var(--amber);
 }
 .lb .info h2 { font-style: italic; color: var(--teal); margin: 12px 0 2px; font-size: 28px; }
-.lb .info .sub { color: var(--ink-dim); margin-bottom: 22px; font-size: 20px; }
+.lb .info .sub { color: var(--ink-dim); margin-bottom: 18px; font-size: 20px; }
+.lb .info .genome {
+  margin-bottom: 20px; padding: 10px;
+  background: var(--bg-2); box-shadow: inset 0 0 0 2px var(--line);
+}
+.lb .info .glabel { font-family: var(--pico); font-size: 7px; color: var(--ink-dim); letter-spacing: 1px; margin-bottom: 8px; }
 .lb .info dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 14px; font-size: 19px; }
 .lb .info dt { font-family: var(--pico); font-size: 7px; letter-spacing: 1px; color: var(--ink-dim); align-self: center; }
 .lb .info dd { margin: 0; color: var(--ink); text-align: right; }
@@ -237,6 +307,7 @@ footer {
   padding: 22px 34px; text-align: center;
   font-family: var(--pico); font-size: 8px; letter-spacing: 1px; color: var(--ink-dim);
 }
+footer .biohaz { color: var(--amber); font-size: 14px; vertical-align: -2px; margin-right: 8px; }
 
 @media (max-width: 680px) {
   h1 { font-size: 16px; }

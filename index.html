@@ -12,29 +12,59 @@
 </head>
 <body>
   <header>
-    <div class="brand">PLASMAE&nbsp;&nbsp;//&nbsp;&nbsp;SPECIMEN ARCHIVE</div>
+    <div class="brand">
+      <svg class="dna" viewBox="0 0 10 16" aria-hidden="true">
+        <polyline points="2,0 3,1 4,2 5,3 6,4 7,5 6,6 5,7 4,8 3,9 2,10 1,11 2,12 3,13 4,14 5,15" fill="none" stroke="#36e0a6" stroke-width="1" shape-rendering="crispEdges"/>
+        <polyline points="6,0 5,1 4,2 3,3 2,4 1,5 2,6 3,7 4,8 5,9 6,10 7,11 6,12 5,13 4,14 3,15" fill="none" stroke="#ffc24b" stroke-width="1" shape-rendering="crispEdges"/>
+        <line x1="2" y1="2" x2="6" y2="2" stroke="#6f8a93" stroke-width="1" shape-rendering="crispEdges"/>
+        <line x1="2" y1="8" x2="6" y2="8" stroke="#6f8a93" stroke-width="1" shape-rendering="crispEdges"/>
+        <line x1="2" y1="14" x2="6" y2="14" stroke="#6f8a93" stroke-width="1" shape-rendering="crispEdges"/>
+      </svg>
+      <span>PLASMAE&nbsp;&nbsp;//&nbsp;&nbsp;SPECIMEN ARCHIVE</span>
+      <span class="bsl">BSL-2</span>
+    </div>
     <h1>Biotech Pixel Art Gallery<span class="blink">_</span></h1>
-    <div class="tagline">A curated archive of synthetic specimens &mdash; <b>cultured</b>, catalogued, contained.</div>
+    <div class="tagline">Synthetic specimens &mdash; <b>cultured</b>, sequenced, contained.</div>
+    <div class="readout" id="readout">
+      <span>&#9670; INCUBATOR <b>37.0&deg;C</b></span>
+      <span>CO&#8322; <b>5.0%</b></span>
+      <span>pH <b>7.2</b></span>
+      <span>STATUS <b class="ok">CULTURING</b></span>
+    </div>
   </header>
+
+  <!-- scrolling base-pair ruler -->
+  <div class="bpruler" aria-hidden="true"></div>
+  <!-- live vitals / EKG -->
+  <div class="vitals" aria-hidden="true">
+    <div class="vitals-track">
+      <svg viewBox="0 0 200 24" preserveAspectRatio="none"><polyline points="0,12 40,12 46,12 50,4 54,20 58,9 62,12 100,12 140,12 146,12 150,4 154,20 158,9 162,12 200,12" fill="none" stroke="#36e0a6" stroke-width="1" shape-rendering="crispEdges"/></svg>
+      <svg viewBox="0 0 200 24" preserveAspectRatio="none"><polyline points="0,12 40,12 46,12 50,4 54,20 58,9 62,12 100,12 140,12 146,12 150,4 154,20 158,9 162,12 200,12" fill="none" stroke="#36e0a6" stroke-width="1" shape-rendering="crispEdges"/></svg>
+    </div>
+  </div>
 
   <nav class="toolbar" id="filters"></nav>
 
   <main class="grid" id="grid"></main>
 
   <div class="lb" id="lb">
-    <span class="close" id="lb-close">[ ESC ] CLOSE</span>
+    <span class="close" id="lb-close">[ X ] CLOSE</span>
     <div class="panel">
       <div class="stage"><img id="lb-img" alt=""></div>
       <div class="info">
         <div class="kicker" id="lb-kicker"></div>
         <h2 id="lb-name"></h2>
         <div class="sub" id="lb-sub"></div>
+        <div class="genome" id="lb-genome"></div>
         <dl id="lb-dl"></dl>
       </div>
     </div>
   </div>
 
-  <footer>PLASMAE LAB &mdash; SPECIMENS CULTURED LOCALLY &middot; Z-IMAGE / ILLUSTRIOUS &middot; AUTONOMOUS PIPELINE</footer>
+  <footer>
+    <span class="biohaz">&#9762;</span>
+    PLASMAE LAB &middot; CULTURED LOCALLY &middot; Z-IMAGE / ILLUSTRIOUS &middot; CONTAINMENT BSL-2 &middot; 37.0&deg;C
+  </footer>
 
   <script src="app.js"></script>
 </body>
