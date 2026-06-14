@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0007",
+      "name": "Florabot ferox",
+      "common": "Cultured Familiar",
+      "style": "pixelbio",
+      "src": "images/plasmae_k1myc0f1on.png",
+      "date": "2026-06-14",
+      "prompt": "An extraordinarily intricate a mechanic golem with 3 eyes standing on a hill in the desert, surreal biotech anatomy packed with overwhelming intricate detail, extremely intricate and obsessively hyper-detailed graphite pencil drawing, insane amount of fine detail in every feather scale gear and sinew, ultra-fine linework, dense layered cross-hatching and stippling, ornate filigree detail, masterful tonal shading, sharp focus, monochrome on textured aged paper, 8k, a masterpiece of pencil draftsmanship"
+    },
+    {
       "id": "SPEC-0006",
       "name": "Chromula gravida",
       "common": "Synthetic Bloom",
