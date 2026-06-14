@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0009",
+      "name": "Voxelis contorta",
+      "common": "Pixel Organism",
+      "style": "pixelbio",
+      "src": "images/plasmae_kum61kjz6q.png",
+      "date": "2026-06-14",
+      "prompt": "An extraordinarily intricate /pixel A hyper-realistic cinematic portrait of Sharikov from Mikhail Bulgakov's 'Heart of a Dog'. The character has a crude, unsettling mix of human and canine features: a low forehead, slightly pointed ears, a coarse, unkempt mustache, and wild, suspicious eyes that reflect an animalistic instinct. He is wearing a tattered, ill-fitting Soviet-style worker's cap and a cheap, dusty overcoat from the 1920s. The setting is a dimly lit, gloomy, and cramped apartment in post-revolutionary Moscow, with peeling wallpaper and cold, atmospheric lighting. The mood is dark, satirical, and grotesque, captured in a gritty, high-contrast photographic style., surreal biotech anatomy packed with overwhelming intricate detail, extremely intricate and obsessively hyper-detailed graphite pencil drawing, insane amount of fine detail in every feather scale gear and sinew, ultra-fine linework, dense layered cross-hatching and stippling, ornate filigree detail, masterful tonal shading, sharp focus, monochrome on textured aged paper, 8k, a masterpiece of pencil draftsmanship"
+    },
+    {
       "id": "SPEC-0008",
       "name": "Biomecha mirabilis",
       "common": "Synthetic Bloom",
