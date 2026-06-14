@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0010",
+      "name": "Voxelis machinata",
+      "common": "Pixel Organism",
+      "style": "pixelbio",
+      "src": "images/plasmae_b1dvrf0pk4.png",
+      "date": "2026-06-14",
+      "prompt": "An extraordinarily intricate An atmospheric and eerie portrait of Hella the vampire-witch from 'The Master and Margarita'. A stunningly beautiful woman with pale, porcelain skin, vivid emerald-green eyes, and long, flowing crimson-red hair. She has a subtle, chilling smile, and a distinct, faint scar running across her throat. The background is a dark, gothic chamber with candlelight catching the mist. Eerie, sensual, mysterious, pre-Raphaelite aesthetic but darker.\", surreal biotech anatomy packed with overwhelming intricate detail, extremely intricate and obsessively hyper-detailed graphite pencil drawing, insane amount of fine detail in every feather scale gear and sinew, ultra-fine linework, dense layered cross-hatching and stippling, ornate filigree detail, masterful tonal shading, sharp focus, monochrome on textured aged paper, 8k, a masterpiece of pencil draftsmanship"
+    },
+    {
       "id": "SPEC-0009",
       "name": "Voxelis contorta",
       "common": "Pixel Organism",
