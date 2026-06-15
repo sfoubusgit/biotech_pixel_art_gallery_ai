@@ -9,6 +9,24 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0027",
+      "name": "Florabot nocturna",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_eldritch",
+      "src": "images/plasmae_7ss60yorcr.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate a bioluminescent jellyfish with brass gear ventricles, macro anatomical detail, biotech mechanical, exposed gears, glowing veins, intricate, dark tentacular bio-horror, sickly green glow, alien pulsating organs, unsettling otherworldly, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
+      "id": "SPEC-0026",
+      "name": "Voxelis nocturna",
+      "common": "Glowing Isolate",
+      "style": "pixel_biotech_regal",
+      "src": "images/plasmae_ipav5dlyxv.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate neon-veined jellyfish with floating chrome gears, biotech mechanical, exposed gears, glowing veins, intricate, ornate gold-veined organism, crown-like crystalline structures, baroque biotech filigree, majestic, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
       "id": "SPEC-0025",
       "name": "Spectris mirabilis",
       "common": "Cultured Familiar",
