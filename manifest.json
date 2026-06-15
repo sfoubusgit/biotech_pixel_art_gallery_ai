@@ -9,6 +9,96 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0022",
+      "name": "Nodulix mirabilis",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_regal",
+      "src": "images/plasmae_5v43vyp7v9.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate glass-winged manta with bioluminescent fiber optic nerves, bio-mechanical hybrid, exposed circuitry and pulsing veins, fused gears and sinew, intricate, ornate gold-veined organism, crown-like crystalline structures, baroque biotech filigree, majestic, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
+      "id": "SPEC-0021",
+      "name": "Spectris contorta",
+      "common": "Lab Specimen",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_e2yn98xy1o.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate neon-veined jellyfish with brass piston tentacles, bio-mechanical hybrid, exposed circuitry and pulsing veins, fused gears and sinew, intricate, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0020",
+      "name": "Gleamia arcana",
+      "common": "Archive Sample",
+      "style": "pixel_biotech_frost",
+      "src": "images/plasmae_p8so4x5y88.png",
+      "date": "2026-06-15",
+      "prompt": "pixel art specimen of neon-veined jellyfish merged with obsidian circuitry, biotech mechanical, exposed gears, glowing veins, intricate, crystalline cryo-organism, icy teal frozen veins, glittering frost crystals, frozen specimen, contained under glass, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0019",
+      "name": "Pixelia ferox",
+      "common": "Contained Mutant",
+      "style": "pixel_biotech_regal",
+      "src": "images/plasmae_sy91ak2vnk.png",
+      "date": "2026-06-15",
+      "prompt": "pixel art specimen of translucent jellyfish with neon fiber-optic neurons, synthetic creature, grafted machinery and living tissue, glowing nodes and fine tubing, intricate biotech anatomy, ornate gold-veined organism, crown-like crystalline structures, baroque biotech filigree, majestic, contained under glass, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0018",
+      "name": "Nodulix contorta",
+      "common": "Glowing Isolate",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_ri616uxhdo.png",
+      "date": "2026-06-15",
+      "prompt": "a cultured translucent jellyfish with neon fiber-optic nervous systems, bio-mechanical hybrid, exposed circuitry and pulsing veins, fused gears and sinew, intricate, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, biotech laboratory specimen, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0017",
+      "name": "Spectris arcana",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_romantic",
+      "src": "images/plasmae_2vmblefpwj.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate translucent jellyfish with neon circuitry nervous systems, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, soft rose and blush bioluminescence, heart-shaped cell clusters, tender pink glow, delicate flowing tendrils, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0016",
+      "name": "Florabot contorta",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_eldritch",
+      "src": "images/plasmae_ri6gjhegp0.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate translucent jellyfish floating with brass gear lungs, macro anatomical detail, biotech mechanical, exposed gears, glowing veins, intricate, dark tentacular bio-horror, sickly green glow, alien pulsating organs, unsettling otherworldly, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0015",
+      "name": "Florabot machinata",
+      "common": "Viable Construct",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_do5k289uf1.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate a translucent jellyfish with neon circuit veins, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
+      "id": "SPEC-0014",
+      "name": "Biomecha mirabilis",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_kcyd4wu8mt.png",
+      "date": "2026-06-15",
+      "prompt": "a cultured glass-shelled jellyfish with pulsing neon circuitry, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, biotech laboratory specimen, pixel art, pixelart, vibrant, masterpiece"
+    },
+    {
+      "id": "SPEC-0013",
+      "name": "Biomecha viridis",
+      "common": "Glowing Isolate",
+      "style": "pixel_biotech_frost",
+      "src": "images/plasmae_yj77tlmatq.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate a bioluminescent jellyfish integrated with brass circuitry, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, crystalline cryo-organism, icy teal frozen veins, glittering frost crystals, frozen specimen, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0012",
       "name": "Gleamia mirabilis",
       "common": "Pixel Organism",
