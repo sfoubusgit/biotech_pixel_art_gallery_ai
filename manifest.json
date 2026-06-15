@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0023",
+      "name": "Gleamia ferox",
+      "common": "Viable Construct",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_mkh54l5sfg.png",
+      "date": "2026-06-15",
+      "prompt": "pixel art specimen of a segmented centipede serpent threaded with pulsing veins and fine circuitry, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, contained under glass, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0022",
       "name": "Nodulix mirabilis",
       "common": "Pixel Organism",
