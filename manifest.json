@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0029",
+      "name": "Gleamia ornata",
+      "common": "Archive Sample",
+      "style": "pixel_biotech_pencil_classic",
+      "src": "images/plasmae_3qe4cz6xs1.png",
+      "date": "2026-06-15",
+      "prompt": "a detailed biotech specimen drawing of crystalline deer with neon optic nerve veins, surreal biotech anatomy packed with overwhelming intricate detail, insane amount of fine detail in every feather scale gear and sinew, intricate biomechanical detail, extremely intricate and obsessively hyper-detailed graphite pencil drawing, ultra-fine linework, dense layered cross-hatching and stippling, ornate filigree detail, masterful tonal shading, sharp focus, monochrome on textured aged paper, 8k, a masterpiece of pencil draftsmanship"
+    },
+    {
       "id": "SPEC-0028",
       "name": "Mutagenis viridis",
       "common": "Contained Mutant",
