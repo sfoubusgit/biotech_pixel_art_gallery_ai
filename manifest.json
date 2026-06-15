@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0024",
+      "name": "Spectris contorta",
+      "common": "Archive Sample",
+      "style": "pixel_biotech_romantic",
+      "src": "images/plasmae_9sjsljhabd.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate a neon-veined jellyfish encased in brass plating, macro anatomical detail, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, soft rose and blush bioluminescence, heart-shaped cell clusters, tender pink glow, delicate flowing tendrils, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0023",
       "name": "Gleamia ferox",
       "common": "Viable Construct",
