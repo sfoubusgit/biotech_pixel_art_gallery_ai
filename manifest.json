@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0012",
+      "name": "Gleamia mirabilis",
+      "common": "Pixel Organism",
+      "style": "pixel_biotech_eldritch",
+      "src": "images/plasmae_xipdzsqkmy.png",
+      "date": "2026-06-15",
+      "prompt": "pixel art specimen of a bioluminescent deer with nanobot antlers, bio-mechanical hybrid, exposed circuitry and pulsing veins, fused gears and sinew, intricate, dark tentacular bio-horror, sickly green glow, alien pulsating organs, unsettling otherworldly, contained under glass, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0011",
       "name": "Spectris nocturna",
       "common": "Synthetic Bloom",
