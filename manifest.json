@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0025",
+      "name": "Spectris mirabilis",
+      "common": "Cultured Familiar",
+      "style": "pixel_biotech_nutty",
+      "src": "images/plasmae_wu3ohz05kr.png",
+      "date": "2026-06-15",
+      "prompt": "pixel art specimen of a neon-veined jellyfish with brass piston tentacles, biotech mechanical, exposed gears, glowing veins, intricate, chaotic googly-eyed microbes, wobbly asymmetry, candy-bright enzymes, absurd whimsical gadgetry, contained under glass, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0024",
       "name": "Spectris contorta",
       "common": "Archive Sample",
