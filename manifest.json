@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0030",
+      "name": "Chromula viridis",
+      "common": "Lab Specimen",
+      "style": "pixel_biotech_classic_classic",
+      "src": "images/plasmae_tfd99cxw8k.png",
+      "date": "2026-06-15",
+      "prompt": "a detailed biotech specimen drawing of a chrome‑scaled serpent with bioluminescent veins, surreal biotech anatomy packed with overwhelming intricate detail, insane amount of fine detail in every feather scale gear and sinew, intricate biomechanical detail, extremely intricate and obsessively hyper-detailed graphite pencil drawing, ultra-fine linework, dense layered cross-hatching and stippling, ornate filigree detail, masterful tonal shading, sharp focus, monochrome on textured aged paper, 8k, a masterpiece of pencil draftsmanship"
+    },
+    {
       "id": "SPEC-0029",
       "name": "Gleamia ornata",
       "common": "Archive Sample",
