@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0011",
+      "name": "Spectris nocturna",
+      "common": "Synthetic Bloom",
+      "style": "pixel_biotech_regal",
+      "src": "images/plasmae_ljgqkv9s04.png",
+      "date": "2026-06-15",
+      "prompt": "a cultured a porcelain crane automaton with translucent skin revealing strange inner anatomy, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, ornate gold-veined organism, crown-like crystalline structures, baroque biotech filigree, majestic, biotech laboratory specimen, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0010",
       "name": "Voxelis machinata",
       "common": "Pixel Organism",
