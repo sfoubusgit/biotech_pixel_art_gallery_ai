@@ -9,6 +9,15 @@
   ],
   "specimens": [
     {
+      "id": "SPEC-0028",
+      "name": "Mutagenis viridis",
+      "common": "Contained Mutant",
+      "style": "pixel_biotech_frost",
+      "src": "images/plasmae_iklrbrgp6h.png",
+      "date": "2026-06-15",
+      "prompt": "An extraordinarily intricate glass-winged dragonfly with neon fiberoptic nerves, living machine organism, glowing bioluminescent veins, exposed clockwork organs, ornate biotech detail, crystalline cryo-organism, icy teal frozen veins, glittering frost crystals, frozen specimen, pixel art, pixelart, detailed sprite, vibrant colors, masterpiece"
+    },
+    {
       "id": "SPEC-0027",
       "name": "Florabot nocturna",
       "common": "Pixel Organism",
